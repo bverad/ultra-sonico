@@ -1,5 +1,9 @@
-(function() {
+(function($) {
 	'use strict';
+	
+	var cfg = {
+        scrollDuration : 800 // smoothscroll duration
+    };
 
 	/*----------------------------------------
 		Detect Mobile
@@ -139,7 +143,7 @@
 		Carousel
 	----------------------------------------*/
 	var owlCarousel = function(){
-
+		console.log("carrousel init");
 		var owl1 = $('.owl-carousel-carousel'),
 			 	owl2 = $('.owl-carousel-carousel2'),
 			 	owl3 = $('.owl-carousel-carousel3');
@@ -542,11 +546,34 @@
 		});
 	
 	};
+	
+	   /* Smooth Scrolling
+    * ------------------------------------------------------ */
+    var clSmoothScroll = function() {
+        
+        $('.smoothscroll').on('click', function (e) {
+			console.log("smoothscroll click");
+            var target = this.hash,
+            $target    = $(target);
+			
+			console.log("target : " + target);
+				
+			e.preventDefault();
+			e.stopPropagation();
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, cfg.scrollDuration, 'swing').promise().done(function () {
+                window.location.hash = target;
+            });
+        });
+
+    };
 
 	/*----------------------------------------
 		Document Ready 
 	----------------------------------------*/
-	$(document).ready(function(){
+	/*$(document).ready(function(){
 		menuHover();
 		counterWayPoint();
 		contentWayPoint();
@@ -555,11 +582,29 @@
 		magnificPopupControl();
 		stellarInit();
 		mobileMenuControl();
-		nextScroll();
+		//nextScroll();
 		loaderPage();
 		goToTop();
 		inlineSVG();
-	});
+		clSmoothScroll();
+	});*/
+	
+	(function ssInit() {
+		menuHover();
+		counterWayPoint();
+		contentWayPoint();
+		backToTop();
+		searchControl();
+		magnificPopupControl();
+		stellarInit();
+		mobileMenuControl();
+		//nextScroll();
+		loaderPage();
+		goToTop();
+		inlineSVG();
+		clSmoothScroll();
+
+    })();
 
 	$(window).load(function(){
 		owlCarousel();
@@ -568,4 +613,4 @@
 
 	
 
-})();
+})(jQuery);

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>uiCookies:Black &mdash; Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title>
+    <title>Ultrasonico, estudio de grabación</title>
     <meta name="description" content="Free Bootstrap Theme by uicookies.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
@@ -26,72 +26,80 @@
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="index.html" class="probootstrap-logo">Black<span>.</span></a>
-        
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
 
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a class="smoothscroll" href="#quienes-somos">Quienes somos</a></li>
+            <li><a class="smoothscroll" href="#servicios">Servicios</a></li>
+            <!--<li><a href="about.html">Acerca de nosotros</a></li>-->
+			<li><a class="smoothscroll" href="#ficha-tecnica">Ficha técnica</a></li>
+			<!--
+			<li><a class="smoothscroll" href="#test">Galería</a></li>
+			<li><a class="smoothscroll" href="#test">Trabajos</a></li>
+			-->
+            <li><a class="smoothscroll" href="#contacto">Contacto</a></li>
           </ul>
           <ul class="probootstrap-right-nav hidden-xs">
-            <li><a href="#"><i class="icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-facebook2"></i></a></li>
             <li><a href="#"><i class="icon-instagram2"></i></a></li>
+            <li><a href="#"><i class="icon-facebook2"></i></a></li>
+            <li><a href="#"><i class="icon-whatsapp"></i></a></li>
           </ul>
           <div class="extra-text visible-xs"> 
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
-            <h5>Address</h5>
-            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-            <h5>Connect</h5>
+            <h5>Dirección</h5>
+            <p>Conferencia esquina Toesca, Santiago</p>
+            <h5>Redes sociales:</h5>
             <ul class="social-buttons">
-              <li><a href="#"><i class="icon-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-facebook2"></i></a></li>
               <li><a href="#"><i class="icon-instagram2"></i></a></li>
+              <li><a href="#"><i class="icon-facebook2"></i></a></li>
+              <li><a href="#"><i class="icon-whatsapp"></i></a></li>
             </ul>
           </div>
         </nav>
+		
+		<a href="index.html" class="probootstrap-logo">
+			<img src="img/logo.png" width="240px" height="210px"></img>
+		</a>
+        
     </div>
   </header>
   <!-- END: header -->
   <section class="probootstrap-slider flexslider">
     <ul class="slides">
-      <li style="background-image: url(img/slider_1.jpg);">
+      <li style="background-image: url(img/slide_1.jpg);">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2>Less is more.</h2>
-                <p><a href="https://uicookies.com/" target="_blank" class="btn btn-primary">Get Started</a></p>
+                <h2>Estudio de grabación profesional.</h2>
+                <!--<p><a href="https://uicookies.com/" target="_blank" class="btn btn-primary">Get Started</a></p>-->
               </div>
             </div>
           </div>
         </div>
       </li>
-      <li style="background-image: url(img/slider_2.jpg);">
+      <li style="background-image: url(img/slide_2.jpg);">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2>Black is elegant.</h2>
-                <p><a href="https://uicookies.com/" target="_blank" class="btn btn-primary">Get Started</a></p>
+                <h2>Ingenieros con trayectoria.</h2>
+                <!--<p><a href="https://uicookies.com/" target="_blank" class="btn btn-primary">Get Started</a></p>-->
               </div>
             </div>
           </div>
         </div>
       </li>
-      <li style="background-image: url(img/slider_3.jpg);">
+      <li style="background-image: url(img/slide_3.jpg);">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2>Whitespace is clever.</h2>
-                <p><a href="https://uicookies.com/" target="_blank" class="btn btn-primary">Get Started</a></p>
+                <h2>En grato ambiente musical.</h2>
+                <!--<p><a href="https://uicookies.com/" target="_blank" class="btn btn-primary">Get Started</a></p>-->
               </div>
             </div>
           </div>
@@ -103,17 +111,23 @@
 
   <section class="probootstrap-section">
     <div class="container">
+	<div id="servicios">
+		<div class="row">
+			<div class="col-md-12 section-heading probootstrap-animate">
+			  <h2>Servicios</h2>
+			</div>
+		</div>
       <div class="row">
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
 
             <div class="icon">
-              <i class="icon-laptop3"></i>
+              <i class="icon-sound"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Business Strategy</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
+              <h3 class="heading">Producción musical</h3>
+              <p>En estudio ultrasonico podemos ayudar al artista a materializar la idea musical aportando la base  musical acorde a su proyecto, esto programando maquinas,  instrumentos midi o grabando a musicos de sesion partners del estudio.</p>
+              <!--<p><a href="single-page.html">Learn more</a></p>-->
             </div>
 
           </div>
@@ -124,31 +138,105 @@
               <i class="icon-presentation"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Business Marketing</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
+              <h3 class="heading">Grabación multipista proyectos musicales</h3>
+              <p> Es la modalidad de grabacion de un  instrumento a la vez, tocan varios musicos, se referencia por audifonos y se graba solo el instrumento definido.</p>
+              <!--<p><a href="single-page.html">Learn more</a></p>-->
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-              <i class="icon-wallet2"></i>
+              <i class="icon-music"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Business Profit</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
+              <h3 class="heading">Edición y mezcla de proyectos musicales</h3>
+              <p>Es la etapa del trabajo en que se preparan las pistas y se trabajar en el balance, posicion y sonoridad o color de cada instrumento y se conforma la obra musical a partir de las pistas grabadas, obteniendo la pieza musical terminada  en niveles optimos para masterizar.</p>
+              <!--<p><a href="single-page.html">Learn more</a></p>-->
             </div>
           </div>
         </div>
       </div>
+	  
+	  <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+
+            <div class="icon">
+              <i class="icon-headphones"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Mastering de proyectos musicales</h3>
+              <p>Es la etapa en que las piezas musicales terminadas de el proyecto se homologan y acercan a los estandares esteticos y sonoros de la industria musical o el que prefiera el cliente, de aqui se obtiene el MASTER final listo para imprimir y publicar.</p>
+              <!--<p><a href="single-page.html">Learn more</a></p>-->
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-mic"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Grabacion multipista en vivo 16 canales (ensayo grabado)</h3>
+              <p> Es la modalidad de grabacion en tiempo real de cada instrumento de todos los musicos tocando en sala.</p>
+              <!--<p><a href="single-page.html">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-spotify"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Distribución digital</h3>
+              <p>Subida de material a 26 plataformas digitales, entre ellas : spotify, itunes, deezer, juno, beatport, entre otros).</p>
+              <!--<p><a href="single-page.html">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+	  
     </div>
   </section>
   <!-- END section -->
+  
+	<div class="container">
+		<div id ="quienes-somos">
+			<div class="col-md-12 section-heading probootstrap-animate">
+				<h2>Quienes somos</h2>
+			</div>
+			<div class="probootstrap-cta probootstrap-animate">
+				<p>
+					ULTRASONICO PRODUCCIONES es un estudio de sonido que nace en México con su fundador Arturo Contreras, Ingeniero en sonido, quien ha trabajado en Chile por más de 8 
+					años el estudio de sonido ANIMAL DE RADIO del conocido locutor FERNANDO SOLIS (locutor de TVN, FM2, y ADN entre otros), esta experiencia hace que en México trabaje 
+					por 4 años en JARPA ESTUDIO. 
+					
+					<br><br>
+					
+					Con la idea de crear su propio estudio de sonido vuelve a Chile el 2006. Participa en distintas producciones audiovisuales nacionales como la Serie HEROES ( Canal 13 ), 
+					se asocia con Ricardo Donoso también Ingeniero en sonido que se desempeñó por 3 años en ROOS FILM como editor de audio de todas las producciones como BIENVENIDA REALIDAD, 
+					LA NANY, CASADO CON HIJOS TEMPORADA 1 Y 2. Juntos deciden poner en marcha a ULTRASONICO PRODUCCIONES. 
+					
+					<br><br>
+					
+					Paralelamente ambos ingenieros trabajan en DINT doblajes internacionales como ingenieros de Grabacion y Mezcla free lance. Trabajando para clientes como DISCOVERY CHANNEL,
+					DISNEY-BETA FILMS y NICKELODEON-THIRTEEN. Ademas realizan labores de fabricacion de bandas de M&E y mezcla de FOLEY.
+				
+				</p>
+				<!--<p><a href="#" role="button" class="btn btn-primary">Get started</a></p>-->
+			</div>
+		</div>
+	</div>
 
   <div class="probootstrap-section">
     <div class="container">
+	  <div id="ficha-tecnica">
+		<div class="col-md-12 section-heading probootstrap-animate">
+			<h2>Ficha técnica</h2>
+		</div>
+	  
       <div class="row">
         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
 
@@ -158,14 +246,50 @@
                 <h3 class="panel-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
-                    Business Strategy
+                    Equipamiento
                   </a>
                 </h3>
               </div>
               <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<p>La configuracion permanente del estudio en sala de músicos es con microfonía base 16 canales conectada a el patch de pared de 20 X 4 fabricado con conectores amphenol y switchcraft.
+						la grabación a protools es a máximo 16 canales simultáneos vía interfaz principal+interfaz secundaria sincronisada adat.</p>
+						
+						<i class="icon-checkmark"></i> Interfaz de audio principal APOLLO firewire UNIVERSAL AUDIO 16 X 20 interfaz clase A de alta resolución con 4 preamplificadores de micrófono UNIVERSAL AUDIO+4 entradas de linea+8 adat in. max total 8 canales hasta 192khz 32bit. 16 canales 48khz 32bits. <br><br>
 
+						<i class="icon-checkmark"></i> Interfaz audio secundaria FOCUSRITE  saffire pro40 20 X 20 8 entradas de micrófono con preamps FOCUSRITE + 8 in/out adat. <br><br>
+
+						<i class="icon-checkmark"></i> Interface ultragain 8 x 8 ADAT ada 8200- 8 in xlr analog 8 out adat. <br><br>
+
+						<i class="icon-checkmark"></i> Pre amplificador de micrófono FOCUSRITE ISA ONE  1 canal. <br><br>
+
+						<i class="icon-checkmark"></i> Pre amplificador de micrófono a tubo ART TUBE GOLD rack x 2 canal. <br><br>
+
+						<i class="icon-checkmark"></i> Pre amplificador de microfono a tubo ART TUBE PRE x 1 canal. <br><br>
+
+						<i class="icon-checkmark"></i> Pre amplificador de microfono PRESONUS TUBE PRE V2 x 1 canal. <br><br>
+
+						<i class="icon-checkmark"></i> Compresor estéreo ART PRO VLAII. <br><br>
+
+						<i class="icon-checkmark"></i> Ecualizador estéreo SPL EX5 psycho acustic processor. <br><br>
+
+						<i class="icon-checkmark"></i> Consola 16 canales  6 aux/4grupos analógica YAMAHA GF16/12. <br><br>
+
+						<i class="icon-checkmark"></i> adat recorder SONY PCM2300. <br><br>
+
+						<i class="icon-checkmark"></i> Apple mac G5 y macbook pro procesador i5. <br><br>
+
+						<i class="icon-checkmark"></i> PC INTEL i5 8gb ram firewire 800 TI. <br><br>
+
+						<i class="icon-checkmark"></i> UAD 2 QUAD satellite de UNIVERSAL AUDIO plugins de alta gama. <br><br>
+
+						<i class="icon-checkmark"></i> Sistema de grabación, mezcla y edición PROTOOLS HD 11. (mac). <br><br>
+
+						<i class="icon-checkmark"></i> Sistema de grabación, mezcla y edición PROTOOLS HD 10. (pc). <br><br>
+
+						<i class="icon-checkmark"></i> Plug ins de marcas wave, slate digital, ssl, universal audio, maat, eventide, bluecat, Fabfilter. <br><br>
+
+						<i class="icon-checkmark"></i> Afinadores, hardware para microfoneo, accesorios varios.	<br><br>
                   
                 </div>
               </div>
@@ -174,14 +298,45 @@
               <div class="panel-heading" role="tab" id="headingTwo">
                 <h3 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Business Marketing
+                    Microfonía
                   </a>
                 </h3>
               </div>
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  
+					<i class="icon-checkmark"></i> 1 RODE NT2 condensador. <br><br>
+
+					<i class="icon-checkmark"></i> 2 AUDIOTECHNICA at3035 condensador. <br><br>
+
+					<i class="icon-checkmark"></i> 1 AUDIOTECHNICA at4040 condensador. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Se ELECTRONICS x1+pantalla acustica r-fx. <br><br>
+
+					<i class="icon-checkmark"></i> 1 MXL Ri144 (microfono de cinta). <br><br>
+
+					<i class="icon-checkmark"></i> 4 Shure sm58. <br><br>
+
+					<i class="icon-checkmark"></i> 3 Shure sm57. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Shure 16A. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Shure beta52 (bombo o bajo). <br><br>
+
+					<i class="icon-checkmark"></i> 1 Audix f2. <br><br>
+
+					<i class="icon-checkmark"></i> 1 AKG d3700. <br><br>
+
+					<i class="icon-checkmark"></i> 1 AKG d112 (bombo o bajo). <br><br>
+
+					<i class="icon-checkmark"></i> 2 CAD cm 217 condensador (over). <br><br>
+
+					<i class="icon-checkmark"></i> 3 CAD tm 211 (tom). <br><br>
+
+					<i class="icon-checkmark"></i> 1 CAD sn 210 (snr). <br><br>
+
+					<i class="icon-checkmark"></i> 1 CAD km212 (bombo). <br><br>
+
+					<i class="icon-checkmark"></i> 4 Cajas directas RADIAL, BEHRINGER, M-AUDIO. <br><br>
                 </div>
               </div>
             </div>
@@ -189,13 +344,75 @@
               <div class="panel-heading" role="tab" id="headingThree">
                 <h3 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Business Profit
+                    Monitoreo y referencia
                   </a>
                 </h3>
               </div>
               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<i class="icon-checkmark"></i> 1 Selector de monitotres samson pro-c. <br><br>
+
+					<i class="icon-checkmark"></i> 2 Sistema de monitoreo activo profesional MACKIE HR 624 MK2 con ISA ACOUSTIC  campo medio. <br><br>
+
+					<i class="icon-checkmark"></i> 2 Sistema monitoreo activo de estudio STUDER A1 campo cercano. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Sub bajo activo YAMAHA sw-p201. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Audifonos SENNHEISER HD6 mix. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Audifonos shure srh-440. <br><br>
+                </div>
+              </div>
+            </div>
+			<div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Sala de músicos
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+					<i class="icon-checkmark"></i> 1 Cabezal RANDALL RX120RH re acondicionado por frankie amp 200 watts. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Cabezal BRUGERA 1990 a tubos gain dual reverb,  Con update de tubos. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Cabezal LINE6 SPIDER IV hd150 150 watts. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Gabinete BUGERA 4 x 12 componentes TURBO SOUND. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Gabinete MARSHALL 4 x12 celestion. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Amplificador de bajo AMPEG ba115 made in usa. <br><br>
+					
+					<i class="icon-checkmark"></i> 1 Amplificador de bajo combo HARTKE Hydrive 115 250watts <br><br>
+
+					<i class="icon-checkmark"></i> 1 Consola YAMAHA mg102c, power qsc, caja warferdale v15, 1 cajas activas aurax, 1 caja pasiva. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Mixer para Monitoreo personal batería BEHRINGER. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Preamplificador de Audifonos DOD SR460H. <br><br>
+
+					<i class="icon-checkmark"></i> 6 Fonos  AKG, TASCAM, PRESONUS. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Bateria SONOR  FORCE 2007 BIRCH. Headshell 5  Piezas. <br><br>
+					
+					<i class="icon-checkmark"></i> 1 Hi hat HHX  manhatan 14 pulgadas 36 cm.  <br><br>
+
+					<i class="icon-checkmark"></i> 1 Crash SABIAN thincrash 15 pulgadas, 38 cm. <br><br>
+
+					<i class="icon-checkmark"></i> 5 Parches REMO weatherking COSTED AMBASSADOR. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Guitarra electrica CORT CMI. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Bajo IBANEZ gio soundgear activo 4 cuerdas. <br><br>
+
+					<i class="icon-checkmark"></i> 1 Controlador midi M-AUDIO 49 keystudio. <br><br>
+					
+					<i class="icon-checkmark"></i> 2 Tornamesa RELOOP rp4000 m3d. <br><br>
+
+					<i class="icon-checkmark"></i> 1 mixer NATIVE INSTRUMENTS Z2 traktor. <br><br>
                 </div>
               </div>
             </div>
@@ -207,7 +424,7 @@
           <figure>
             <div class="probootstrap-video">
               <a href="https://vimeo.com/45830194" class="popup-vimeo probootstrap-video-play"><i class="icon-play3"></i></a>
-              <img src="img/slider_2.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive img-border">
+              <img src="img/slide_2.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive img-border">
             </div>
             <figcaption>This is a caption. Far far away, behind the word mountains.</figcaption>
           </figure>
@@ -215,71 +432,67 @@
         </div>
       </div>
     </div>
+	</div>
   </div>
   <!-- END section -->
-  
-  
-  <div class="container">
-    <div class="probootstrap-cta probootstrap-animate">
-      <h2 class="mb20">Create a beautiful templates to benefits many.</h2>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-      <p><a href="#" role="button" class="btn btn-primary">Get started</a></p>
-    </div>
-  </div>
+	
+	<!-- contact section-->
+	<section class="probootstrap-section">
+		<div class="container">
+		<div id="contacto">
+			<div class="col-md-12 section-heading probootstrap-animate">
+				<h2>Contacto</h2>
+			</div>
+		  <div class="row">
+			<div class="col-md-8">
+			  <form action="#" method="post" class="probootstrap-form mb60">
+				<div class="row">
+				  <div class="col-md-6">
+					<div class="form-group">
+					  <label for="fname">Nombre</label>
+					  <input type="text" class="form-control" id="fname" name="fname">
+					</div>
+				  </div>
+				  <div class="col-md-6">
+					<div class="form-group">
+					  <label for="lname">Apellido</label>
+					  <input type="text" class="form-control" id="lname" name="lname">
+					</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="email">Email</label>
+				  <input type="email" class="form-control" id="email" name="email">
+				</div>
+				<div class="form-group">
+				  <label for="message">Mensaje</label>
+				  <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
+				</div>
+				<div class="form-group">
+				  <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Enviar mensaje">
+				</div>
+			  </form>
+			</div>
+			<div class="col-md-3 col-md-push-1">
+			  <h4>Detalles de contacto</h4>
+			  <ul class="with-icon colored">
+				<li><i class="icon-location2"></i> <span>Conferencia esquina Toesca, Santiago, Chile</span></li>
+				<li><i class="icon-mail"></i><span>contacto@ultrasonico.cl</span></li>
+				<li><i class="icon-phone2"></i><span>+56995639783</span></li>
+			  </ul>
 
-  <!-- END section cta -->
-
-  <section class="probootstrap-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 section-heading probootstrap-animate">
-          <h2>The Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">A Clever Bike</h2>
-              <p class="category">Design &amp; Model</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Sleek Spaker</h2>
-              <p class="category">Design</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Black Person</h2>
-              <p class="category">Photography</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p><a href="single-page.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END section -->
+				<!--
+			  <h4>Feedback</h4>
+			  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+			  <p><a href="#">Learn More</a></p>
+			  -->
+			</div>
+		  </div>
+		  </div>
+		</div>
+	</section>  
+	<div id="map"></div>
+  <!-- end contact section-->
   
 
   <footer class="probootstrap-footer probootstrap-bg">
@@ -287,23 +500,22 @@
       <div class="row mb60">
         <div class="col-md-3">
           <div class="probootstrap-footer-widget">
-            <h4 class="heading">About Black.</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            <p><a href="#">Read more...</a></p>
+            <h4 class="heading">Acerca de ultrasonico.</h4>
+            <p>Servicios de grabación, mastering, produccion y distribución de proyectos musicales. </p>
           </div> 
         </div>
         <div class="col-md-3">
           <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h4 class="heading">Quick Links</h4>
+            <h4 class="heading">Links rápidos</h4>
             <ul class="stack-link">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Testimonial</a></li>
+            <li><a class="smoothscroll" href="#quienes-somos">Quienes somos</a></li>
+            <li><a class="smoothscroll" href="#servicios">Servicios</a></li>
+			<li><a class="smoothscroll" href="#ficha-tecnica">Ficha técnica</a></li>
+            <li><a class="smoothscroll" href="#contacto">Contacto</a></li>
             </ul>
           </div>
         </div>
+		<!--
         <div class="col-md-3">
           <div class="probootstrap-footer-widget">
             <h4 class="heading">More Links</h4>
@@ -316,14 +528,15 @@
             </ul>
           </div> 
         </div>
+		-->
         <div class="col-md-3">
           <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h4 class="heading">Subscribe</h4>
-            <p>Far far away behind the word mountains far from.</p>
+            <h4 class="heading">Suscríbete</h4>
+            <p>Si quieres recibir información respecto a nuestros servicios.</p>
             <form action="#">
               <div class="form-field">
-                <input type="text" class="form-control" placeholder="Enter your email">
-                <button class="btn btn-subscribe">Send</button>
+                <input type="text" class="form-control" placeholder="Ingresa tu email">
+                <button class="btn btn-subscribe">Enviar</button>
               </div>
             </form>
           </div>
@@ -332,15 +545,15 @@
       <div class="row copyright">
         <div class="col-md-6">
           <div class="probootstrap-footer-widget">
-            <p>&copy; 2017 <a href="https://uicookies.com/">uiCookies:Black</a>. Designed by <a href="https://uicookies.com/">uicookies.com</a> <br> Demo Photos from <a href="https://unsplash.com/">Unsplash</a></p>
+            <p>&copy; 2019 <b>Ultrasonico</b> todos los derechos reservados</p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="probootstrap-footer-widget right">
             <ul class="probootstrap-social">
-              <li><a href="#"><i class="icon-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-instagram2"></i></a></li>
+               <li><a href="#"><i class="icon-instagram2"></i></a></li>
+              <li><a href="#"><i class="icon-facebook2"></i></a></li>
+              <li><a href="#"><i class="icon-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
@@ -351,9 +564,15 @@
   <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/scripts.min.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+    <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
 
   
   </body>

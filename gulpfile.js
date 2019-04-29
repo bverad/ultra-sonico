@@ -22,7 +22,8 @@ var paths = {
 gulp.task('scripts', function() {
   return gulp.src([
     /* Add your JS files here, they will be combined in this order */
-    'js/vendor/jquery.min.js',
+    //'js/vendor/jquery.min.js',
+    'js/vendor/jquery-3.2.1.min.js',
     'js/vendor/jquery.easing.1.3.js',
     'js/vendor/jquery.stellar.min.js',
     'js/vendor/jquery.flexslider-min.js',

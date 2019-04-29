@@ -582,6 +582,26 @@ a {
 		text-transform: uppercase;
 	}
 }
+
+.probootstrap-test {
+	border-top: 2px solid rgba(255,255,255,.1);
+	border-bottom: 2px solid rgba(255,255,255,.1);
+	padding: 50px 0;
+	float: left;
+	width: 100%;
+	&.border-bototm-none {
+		border-bottom: none;
+	}
+	*:last-child {
+		margin-bottom: 0;
+	}
+	h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+}
+
 .probootstrap-relative {
 	position: relative;
 }
