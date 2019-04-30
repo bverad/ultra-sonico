@@ -10,6 +10,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
+	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
@@ -242,6 +243,8 @@
 
           <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
+				<p>La configuracion permanente del estudio en sala de músicos es con microfonía base 16 canales conectada a el patch de pared de 20 X 4 fabricado con conectores amphenol y switchcraft.
+						la grabación a protools es a máximo 16 canales simultáneos vía interfaz principal+interfaz secundaria sincronisada adat.</p>
               <div class="panel-heading" role="tab" id="headingOne">
                 <h3 class="panel-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -252,9 +255,7 @@
               </div>
               <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-					<p>La configuracion permanente del estudio en sala de músicos es con microfonía base 16 canales conectada a el patch de pared de 20 X 4 fabricado con conectores amphenol y switchcraft.
-						la grabación a protools es a máximo 16 canales simultáneos vía interfaz principal+interfaz secundaria sincronisada adat.</p>
-						
+					
 						<i class="icon-checkmark"></i> Interfaz de audio principal APOLLO firewire UNIVERSAL AUDIO 16 X 20 interfaz clase A de alta resolución con 4 preamplificadores de micrófono UNIVERSAL AUDIO+4 entradas de linea+8 adat in. max total 8 canales hasta 192khz 32bit. 16 canales 48khz 32bits. <br><br>
 
 						<i class="icon-checkmark"></i> Interfaz audio secundaria FOCUSRITE  saffire pro40 20 X 20 8 entradas de micrófono con preamps FOCUSRITE + 8 in/out adat. <br><br>
@@ -445,34 +446,38 @@
 			</div>
 		  <div class="row">
 			<div class="col-md-8">
-			  <form action="#" method="post" class="probootstrap-form mb60">
-				<div class="row">
-				  <div class="col-md-6">
-					<div class="form-group">
-					  <label for="fname">Nombre</label>
-					  <input type="text" class="form-control" id="fname" name="fname">
-					</div>
-				  </div>
-				  <div class="col-md-6">
-					<div class="form-group">
-					  <label for="lname">Apellido</label>
-					  <input type="text" class="form-control" id="lname" name="lname">
-					</div>
-				  </div>
+				<div class="form contact-form">
+					<div id="sendmessage">Tu mensaje ha sido enviado. Gracias</div>
+					<div id="errormessage"></div>
+					<form action="#" method="post" class="probootstrap-form mb60">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+								  <input type="text" name="name" class="form-control" id="name" placeholder="Ingresa tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+								  <div class="validation"></div>
+								</div>
+								<div class="form-group">
+								  <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu email" data-rule="email" data-msg="Por favor ingrese un email valido" />
+								  <div class="validation"></div>
+								</div>
+								<div class="form-group">
+								  <input type="text" class="form-control" name="subject" id="subject" placeholder="Ingresa el asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres en el asunto" />
+								  <div class="validation"></div>
+								</div>
+								<div class="form-group">
+								  <textarea class="form-control" name="message" rows="15" col="10" data-rule="required" data-msg="Debe ingresar contenido en el mensaje" placeholder="Escribe un mensaje"></textarea>
+								  <div class="validation"></div>
+								</div>
+								<div class="form-group">
+								  <!--<input type="submit" class="btn btn-primary" id="submit" name="submit" value="Enviar mensaje">-->
+									<button type="submit" class="btn btn-primary">Enviar mensaje</button>
+								</div>
+							</div>
+						</div>
+					</form>
 				</div>
-				<div class="form-group">
-				  <label for="email">Email</label>
-				  <input type="email" class="form-control" id="email" name="email">
-				</div>
-				<div class="form-group">
-				  <label for="message">Mensaje</label>
-				  <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
-				</div>
-				<div class="form-group">
-				  <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Enviar mensaje">
-				</div>
-			  </form>
 			</div>
+			
 			<div class="col-md-3 col-md-push-1">
 			  <h4>Detalles de contacto</h4>
 			  <ul class="with-icon colored">
@@ -565,15 +570,16 @@
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
   
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/scripts.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/main.min.js"></script>
-  <script src="js/custom.js"></script>
-    <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/main.min.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<!-- Contact Form JavaScript File -->
+	<script src="contactform/contactform.js"></script>	
   
   </body>
 </html>
