@@ -65,7 +65,7 @@
 
 	/*----------------------------------------
 		Burger Menu
-	----------------------------------------*/	
+	----------------------------------------
 	var mobileMenuControl = function() {
 		
 
@@ -110,7 +110,7 @@
 		});
 		
 
-	};
+	};*/
 
 	/*----------------------------------------
 		Search
@@ -569,11 +569,12 @@
         });
 
     };
+	
 
 	/*----------------------------------------
 		Document Ready 
 	----------------------------------------*/
-	/*$(document).ready(function(){
+	$(document).ready(function(){
 		menuHover();
 		counterWayPoint();
 		contentWayPoint();
@@ -581,30 +582,14 @@
 		searchControl();
 		magnificPopupControl();
 		stellarInit();
-		mobileMenuControl();
-		//nextScroll();
+		//mobileMenuControl();
+		nextScroll();
 		loaderPage();
 		goToTop();
 		inlineSVG();
 		clSmoothScroll();
-	});*/
+	});
 	
-	(function ssInit() {
-		menuHover();
-		counterWayPoint();
-		contentWayPoint();
-		backToTop();
-		searchControl();
-		magnificPopupControl();
-		stellarInit();
-		mobileMenuControl();
-		//nextScroll();
-		loaderPage();
-		goToTop();
-		inlineSVG();
-		clSmoothScroll();
-
-    })();
 
 	$(window).load(function(){
 		owlCarousel();
