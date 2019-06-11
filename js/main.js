@@ -341,7 +341,7 @@
 	    animation: "fade",
 	    prevText: "",
 	    nextText: "",
-	    slideshowSpeed: 2000, // speed of slides
+	    slideshowSpeed: 5000, // speed of slides
 	    animationSpeed: 600,
 	    slideshow: true,
 	    directionNav: false,
@@ -351,7 +351,7 @@
 	    animation: "fade",
 	    prevText: "",
 	    nextText: "",
-	    slideshowSpeed: 2000, // speed of slides
+	    slideshowSpeed: 5000, // speed of slides
 	    animationSpeed: 600,
 	    slideshow: true,
 	    directionNav: false,
@@ -588,12 +588,13 @@
 		goToTop();
 		inlineSVG();
 		clSmoothScroll();
+		flexSlider();
 	});
 	
 
 	$(window).load(function(){
 		owlCarousel();
-		flexSlider();
+		//flexSlider();
 	});
 
 	

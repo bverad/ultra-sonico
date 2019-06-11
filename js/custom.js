@@ -70,7 +70,7 @@ jQuery(document).ready(function() {
 	    animation: "fade",
 	    prevText: "",
 	    nextText: "",
-	    slideshowSpeed: 2000, // speed of slides
+	    slideshowSpeed: 5000, // speed of slides
 	    animationSpeed: 600,
 	    slideshow: true,
 	    directionNav: false,
@@ -80,7 +80,7 @@ jQuery(document).ready(function() {
 	    animation: "fade",
 	    prevText: "",
 	    nextText: "",
-	    slideshowSpeed: 2000, // speed of slides
+	    slideshowSpeed: 5000, // speed of slides
 	    animationSpeed: 600,
 	    slideshow: true,
 	    directionNav: false,
@@ -98,7 +98,7 @@ jQuery(document).ready(function() {
 	
 	
 	$(window).load(function(){
-		flexSlider();
+		//flexSlider();
 	});
 
 });
